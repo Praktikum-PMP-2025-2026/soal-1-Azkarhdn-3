@@ -62,7 +62,6 @@ void deleteNode(List *L, int val){
         temp =temp->next;
     }
     if(temp==NULL){
-        printf("Tidak ditemukan\n");
         return;
     }
     prev->next =temp->next;
